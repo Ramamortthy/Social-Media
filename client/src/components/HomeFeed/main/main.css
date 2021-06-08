@@ -1,0 +1,8 @@
+.maincontainer{
+    width: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+    height: max-content;
+    background-color: rgb(24, 25, 26);
+    margin: auto;
+}

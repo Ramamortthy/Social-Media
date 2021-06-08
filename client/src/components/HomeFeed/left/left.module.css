@@ -1,0 +1,8 @@
+.leftcontainer{
+    width: 30%;
+    background-color: rgb(24, 25, 26);
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+}

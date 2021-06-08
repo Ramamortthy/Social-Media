@@ -1,0 +1,140 @@
+p{
+    padding: 0;
+    margin: 0;
+}
+.Cardcontainer{
+    width: 100%;
+    height: max-content;
+    margin: 20px auto;
+    background-color: rgb(36, 37, 38);
+    border-radius: 12px;
+    color: white;
+}
+.Cardprofile{
+    width: 95%;
+    margin: auto;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.Cardprofiledp{
+    width:9%;
+    height: 44px;
+    margin: 8px auto 0px auto;
+    border-radius: 100px;
+}
+.Cardprofiledp img{
+    width: 100%; 
+    height: 100%;
+    border-radius: 100px;
+}
+.Cardprofiledetail{
+    width: 91%;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.Cardprofiledetail strong{
+    font-size: 14px;
+}
+.Cardprofiledetail p{
+    font-size: 10px;
+}
+.Cardcaption{
+    width: 95%;
+    margin: auto;
+    height: max-content;
+    padding: 4px 0;
+    text-align: left;
+    box-sizing: border-box;
+    word-wrap: normal;
+    font-size: 12px;
+}
+.Cardview{
+    width: 100%;
+    height: max-content;
+}
+.Cardview img{
+    width: 100%; 
+    height: 100%;
+}
+.Cardlikes{
+    width: 95%;
+    height: 32px;
+    padding: 4px 0;
+    border-top: 1px solid rgba(107, 107, 107, 0.493);
+    margin: auto;
+}
+.Cardcontrol{
+    width: 95%;
+    height: 32px;
+    padding: 4px 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(107, 107, 107, 0.493);
+}
+.Cardcontrollike{
+    width: 50%;
+    height: 100%;
+    line-height: 200%;
+    font-size: 12px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid  rgba(0, 0, 0, 0);
+    border-right: 1px solid white;
+}
+.Cardcontrolshare{
+    width: 50%;
+    height: 100%;
+    line-height: 200%;
+    font-size: 12px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid  rgba(0, 0, 0, 0);
+}
+.Cardcomment{
+    width: 95%;
+    height: max-content;
+    padding: 4px 0;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    border-top: 1px solid rgba(107, 107, 107, 0.493);
+    justify-content: space-between;
+}
+
+.commentsection {
+    width:80%;
+    word-wrap: break-word;
+    height: max-content;
+    border-radius: 100px;
+    color: white;
+    padding: 8px 16px;
+    background-color: rgb(58, 59, 60);
+    box-sizing: border-box;
+}
+.commentsection:focus{
+    outline: none;
+}
+
+.headerProfilePicture img{
+    width:100%;
+    height:100%;
+    border-radius: 100px;   
+}
+.headerProfilePicture button{
+    width:100%;
+    height:100%;
+    border-radius: 100px;
+    background-color: #1A4071;
+}
+
+.headerProfilePicture {
+    width: 9%;
+}
+
+.profiledp{
+    width: 40px;
+    height: 40px;
+}
